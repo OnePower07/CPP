@@ -14,5 +14,6 @@ int main()
             }
     }
     cout<<"Sum is: "<<sum;
+    //sum of factors
     return 0;
 }
