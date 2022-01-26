@@ -10,6 +10,6 @@ int main()
         fact = fact * i;
     }
 
-    cout << "Factorial is: " << fact << endl;
+    cout << "Factorial is: " << fact << endl;//factorial
     return 0;
 }
