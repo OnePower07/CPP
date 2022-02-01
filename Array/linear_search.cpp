@@ -19,7 +19,7 @@ int main()
         }
     }
     if(a==0){
-        cout<<"Not found"<<endl;
+        cout<<"Not found at any index"<<endl;
     }
         return 0;
 }
