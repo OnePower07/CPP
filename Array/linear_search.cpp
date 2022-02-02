@@ -4,13 +4,13 @@ int main()
 {
     int A[5],n=5,key,a=0;
     cout<<"Enter the elements of an Array: "<<" "<<endl;
-    for(int i=0;i<n;i++)
+    for(int i=0;i<n;i++)//This for loop for getting elements from user
     {
         cin>>A[i];
     }
     cout<<"Enter the key to search: ";
     cin>>key;
-    for(int i=0;i<n;i++)
+    for(int i=0;i<n;i++)//This for loop for searching the elements
     {
         if(key==A[i])
         {
