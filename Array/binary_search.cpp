@@ -15,7 +15,8 @@ int main(){
         mid=(l+h)/2;//This goes for mid value
         if(key==A[mid]){        //if find then return the mid value 
             cout<<"Element found at: "<<mid;
-            a=1;
+            //a=1;
+            return 0;
         }
         else if(key<A[mid]){  /*otherwise if the key value is then the mid value then search goes for left side 
                                where mid value decreased by 1 */
@@ -24,9 +25,8 @@ int main(){
         else{
             l=mid+1; 
         }
-        if(a==0){
-        cout<<"Not found at any index"<<endl;
     }
+    //if(a==0){
+        cout<<"Not found at any index"<<endl;
     return 0;
-}
 }
