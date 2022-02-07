@@ -7,7 +7,7 @@ int main(){
         for(int j=0;j<3;j++){
             cout<<A[i][j]<<" ";
         }
-        cout<<endl;
+         cout<<endl;
     }
 
 }
