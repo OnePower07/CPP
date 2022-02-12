@@ -10,9 +10,9 @@ int main()
  
  for(i = 0; i < n; ++i)
  {
- cout << i + 1<< " Enter number: ";
+ cout << "Enter number: ";
  cin >> num[i];
- sum += num[i];
+ sum = sum + num[i];
  }
  
  average = sum / n;
