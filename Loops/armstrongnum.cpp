@@ -12,7 +12,7 @@ int main(){
     }
     if(sum==m)
     {
-        cout<<"Armstrong number"<<endl;
+        cout<<"This is Armstrong number"<<endl;
     }
     else
     cout<<"Not an Armstrong number";
