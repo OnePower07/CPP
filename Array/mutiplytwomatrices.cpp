@@ -14,8 +14,6 @@ int main()
  cout<<"Cant be Multiplied"; 
  return 0; 
 }
- 
- // Storing elements of first matrix.
  cout << endl << "Enter elements of matrix 1:" << endl;
  for(i = 0; i < r1; ++i)
  for(j = 0; j < c1; ++j)
@@ -24,7 +22,7 @@ int main()
  cin >> a[i][j];
  }
  
- // Storing elements of second matrix.
+
  cout << endl << "Enter elements of matrix 2:" << endl;
  for(i = 0; i < r2; ++i)
  for(j = 0; j < c2; ++j)
@@ -34,7 +32,6 @@ int main()
  }
  
  
- // Multiplying matrix a and b and storing in array mult.
  for(i = 0; i < r1; ++i)
  for(j = 0; j < c2; ++j) 
  { 
@@ -45,7 +42,6 @@ int main()
  } 
  }
  
- // Displaying the multiplication of two matrix.
  cout << endl << "Output Matrix: " << endl;
  for(i = 0; i < r1; ++i)
  for(j = 0; j < c2; ++j)
