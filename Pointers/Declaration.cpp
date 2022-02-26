@@ -5,8 +5,8 @@ int main()
     int a=10;
     int *p; //declaration
     p=&a; //initialisation
-    cout<<a<<endl;
-    cout<<&a<<endl;;
+    cout<<a<<endl;//value 
+    cout<<&a<<endl;;//address
     cout<<p<<endl;
     cout<<&p<<endl;
     cout<<*p;
