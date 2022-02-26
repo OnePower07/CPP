@@ -7,7 +7,7 @@ int main(){
 
     for(i=1;i<=10;i++)
     {
-        cout<<n<<"x"<<i<<"="<<i*n<<endl;
+        cout<<n<<"x"<<i<<"="<<i*n<<endl;//multiplication format
     }
     return 0;
 }
