@@ -6,8 +6,7 @@ int main()
     
     fact*=a*b*c; //multiplication with the help compound assignment
     
-    cout << "Product is: \n"
-         << fact;
+    cout << "Product is: "<< fact<<endl;;
 
     return 0;
 }
