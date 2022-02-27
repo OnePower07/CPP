@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int n, i=1, sum;
+    int n, i=1, sum;//declaration
     sum = 0;
     cout << "Enter n: " << endl;
     cin >> n;
