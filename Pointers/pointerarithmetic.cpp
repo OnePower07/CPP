@@ -7,5 +7,5 @@ int main()
     //int *q =&A[3];
     //int d=q-p;
     //p++;
-    cout<<p;
+    cout<<*p<<endl;
 }
