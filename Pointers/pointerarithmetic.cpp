@@ -7,5 +7,7 @@ int main()
     //int *q =&A[3];
     //int d=q-p;
     //p++;
-    cout<<4[A]<<endl;
+    for (int i=0; i<5 ; i++){
+    cout<<i[A]<<endl;
+    }
 }
