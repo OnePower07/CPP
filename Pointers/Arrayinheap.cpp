@@ -7,7 +7,7 @@ int main()
     p[1]=13;
     cout<<p[1]<<endl;
 
-    delete []p;
+    delete []p; // memory deleted
     p=nullptr;
     return 0;
 }
