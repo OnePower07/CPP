@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int search(int arr[], int n, int x)
+int search(int arr[], int n, int x) //This was done by using a function
 {
 	int i;
 	for (i = 0; i < n; i++)
@@ -9,8 +9,6 @@ int search(int arr[], int n, int x)
 			return i;
 	return -1;
 }
-
-
 int main(void)
 {
 	int arr[] = { 2, 3, 4, 10, 40 };
