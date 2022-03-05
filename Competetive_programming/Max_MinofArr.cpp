@@ -4,7 +4,7 @@ int main()
 {
     int min,max,i;
     int A[5]={2,1,6,9,8};
-    min = A[0];
+    min = A[0]; //initialisation
     max = A[0];
     for (int i=0;i<5;i++)
     {
