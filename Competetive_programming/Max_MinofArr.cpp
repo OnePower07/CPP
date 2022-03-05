@@ -8,7 +8,7 @@ int main()
     max = A[0];
     for (int i=0;i<5;i++)//for loop
     {
-        if(A[i]<min)
+        if(A[i]<min)//if-elseif
         {
             min=A[i];
         }
