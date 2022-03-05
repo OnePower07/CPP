@@ -6,7 +6,7 @@ int main()
     int A[5]={2,1,6,9,8};
     min = A[0]; //initialisation
     max = A[0];
-    for (int i=0;i<5;i++)
+    for (int i=0;i<5;i++)//for loop
     {
         if(A[i]<min)
         {
