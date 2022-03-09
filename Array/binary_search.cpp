@@ -22,7 +22,6 @@ int main()
         else if (key < A[mid])
         { /*otherwise if the key value is then the mid value then search goes for left side 
                                where mid value decreased by 1 */
-                               
             h = mid - 1;
         }
         else
