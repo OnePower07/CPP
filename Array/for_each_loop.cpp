@@ -7,7 +7,6 @@ int main(){
         cout << A[3] << endl;
         sum=sum+A[3];
     }
-
     cout<<"Sum is: "<<sum; //sum
     return 0;
 } 
