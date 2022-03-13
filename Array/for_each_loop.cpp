@@ -9,5 +9,4 @@ int main(){
     }
     cout<<"Sum is: "<<sum; //sum
     return 0;
-
 } 
