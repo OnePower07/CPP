@@ -5,7 +5,7 @@ int main(){
     cout<<"Enter Total Amount: "<<endl;
     cin>>bill;//taking input
     if(bill>=100 && bill<500){
-        cout<<"Discount of 10% "<<endl; //conditional statement
+        cout<<"Discount of 10% "<<endl; //conditional statement starts
     }
     else if(bill>=500){
         cout<<"Discount of 20% "<<endl;
