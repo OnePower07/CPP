@@ -6,5 +6,5 @@ cout<<"Enter value of x: "<<endl;
 cin>>x;
 int *p;
 p=&x;
-cout<<"The address of variable x is: "<<&x;
+cout<<"The address of pointer variable x is: "<<&p;
 }
