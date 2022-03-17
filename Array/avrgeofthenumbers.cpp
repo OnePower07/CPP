@@ -4,7 +4,6 @@ int main()
 {
  int n, i;
  float num[5], sum=0.0, average;
- 
  cout << "Enter the numbers of elements: ";
  cin >> n;
  
