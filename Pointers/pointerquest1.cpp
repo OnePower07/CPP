@@ -7,5 +7,4 @@ int main()
     cout<<"Enter a number: "<<endl;
     cin>>x;
     cout<<"The number is: "<<*(&x);
-
 }
