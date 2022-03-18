@@ -9,7 +9,5 @@ int main()
     //d = a%b;
     cout << "Addition is " << c;
     //cout << "Modulus is " << d;
-
-   
     return 0;
 }
