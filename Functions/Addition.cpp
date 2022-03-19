@@ -11,5 +11,4 @@ int main()
 int a=10,b=12,c;
 c=add(a,b);
 cout<<"Sum is: "<<c;
-
 }
