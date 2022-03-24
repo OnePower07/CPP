@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-void display()
+void display() //function name
 {
     cout<<"Hello World";
 }
