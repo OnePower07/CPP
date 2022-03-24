@@ -12,7 +12,7 @@ int maximum(int a, int b, int c)
     return c;
 
 }
-int main()
+int main()//main function
 {
     int a=12,b=14,c=43,d;
     d=maximum(a,b,c);
