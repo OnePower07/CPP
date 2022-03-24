@@ -2,7 +2,7 @@
 using namespace std;
 int maximum(int a, int b, int c)
 {
-    if (a>b && a>c)
+    if (a>b && a>c) //if else under function
     return a;
 
     else if(b>a && b>c)
