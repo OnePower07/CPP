@@ -1,15 +1,14 @@
 #include<iostream>
 using namespace std;
-void factorial(int *fact,int i,int n)
-{
-    *fact=1;
- for (i=1;i<=n;i++)
-     *fact=*fact*i;
-}
 int main()
 {
-    int a=5,fac;
-    fac=factorial*(&a);
-    cout<<"Factorial: "<<fac;
-    return 0;
+int*p,n=5;
+int factorial=1;
+p=&factorial;
+for (int i = 1; i <= n; i++)
+{
+    *p *= i;
+}
+cout<<"factorial: "<<*p;
+return 0;
 }
