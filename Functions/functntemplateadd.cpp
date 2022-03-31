@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-template <class T>
+template <typename T>
 T add(T x, T y, T z)
 {
     return x+y+z;
