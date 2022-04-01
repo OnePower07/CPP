@@ -30,4 +30,3 @@ int main()
     cout << maxim(10,2,13)<<endl;
     return 0;
 }
-
