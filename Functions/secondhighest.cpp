@@ -23,7 +23,6 @@ int maxim(int a=0,int b=0, int c=0)
         else
             return b;
     }
-
 }
 int main()
 {
