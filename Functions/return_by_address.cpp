@@ -20,3 +20,4 @@ int main()
     cout<<q<<endl;
     return 0;
 }
+//since, the address of p and q are same that means q is pointing on the same memory
