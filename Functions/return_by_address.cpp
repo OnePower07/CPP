@@ -7,6 +7,7 @@ int *fun()
     {
         p[i]=5*i;
     }
+    cout<<p<<endl;
     return p;
 }
 int main()
@@ -16,5 +17,6 @@ int main()
     {
         cout<<q[i]<<endl;
     }
+    cout<<q<<endl;
     return 0;
 }
