@@ -9,6 +9,6 @@ int main()
 {
     int x=10;
     fun(x)=25; // x is 25  This is the beauty of cpp that u can use the func as L value and can
-             //  change the value of the variable
+              // change the value of the variable
     cout<<x<<endl;
 }
