@@ -10,6 +10,7 @@ int maximum(int a, int b, int c)
 
     else 
     return c;
+    
 }
 int main()//main function
 {
