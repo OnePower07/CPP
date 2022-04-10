@@ -16,5 +16,3 @@ int main()
     int x=5;
     cout<<factorial(x);
 }
-
-
