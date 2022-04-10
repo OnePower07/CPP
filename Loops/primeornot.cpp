@@ -7,15 +7,13 @@ int main(){
     for(i=1; i<=n ;i++)
     {
         if(n%i==0)
-        count++;
+            count++;
     }
     {
         if(count==2)
-        {
             cout<<"Prime number"<<endl;
-        }
         else
-        cout<<"Not a prime number";
+            cout<<"Not a prime number";
     }
     return 0;
 }
