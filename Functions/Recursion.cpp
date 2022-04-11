@@ -10,6 +10,6 @@ void fun(int n)
 }
 int main()
 {
-    int x=4;
+    int x=6;
     fun(x);
 }
