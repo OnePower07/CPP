@@ -9,7 +9,7 @@ if(a<0){
 }
 float absolute(float b)
 {
-if(b<0.0){
+    if(b<0.0){
     b=-b;
     return b;
 }
