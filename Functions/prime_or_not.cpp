@@ -9,7 +9,6 @@ string prime(int a)
     }
     return "Prime";
 }
-
 int main(){
     int a=11;
     cout<<prime(a);
