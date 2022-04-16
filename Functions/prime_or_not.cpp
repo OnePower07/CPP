@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 string prime(int a)
+
 {
     for(int i=2;i<a;i++)
     {
