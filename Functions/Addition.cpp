@@ -6,6 +6,7 @@ int z;
 z=x+y;
 return z;
 }
+
 int main()
 {
 int a=10,b=12,c;
