@@ -1,6 +1,7 @@
 #include<iostream>
 using namespace std;
 void evenodd(int a)
+
 {
      if(a%2==0)
      {
