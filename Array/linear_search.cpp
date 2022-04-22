@@ -10,7 +10,7 @@ int main()
     }
     cout<<"Enter the key to search: ";
     cin>>key;
-    for(int i=0;i<n;i++)//This for loop for searching the elements
+    for(int i=0;i<n;i++) //This for loop for searching the elements
     {
         if(key==A[i])
         {
