@@ -8,7 +8,7 @@ return z;
 }
 int main()
 {
-int a=10,b=14,c;
+int a=10,b=111,c;
 c=add(a,b);
 cout<<"Sum is: "<<c;
 }
