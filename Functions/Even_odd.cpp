@@ -10,7 +10,6 @@ void evenodd(int a)
          cout<<"a is odd"<<endl;
      }
 }
-
 int main()
 {
     int a=11;
