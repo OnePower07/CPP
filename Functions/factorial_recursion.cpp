@@ -11,7 +11,6 @@ int factorial(int n)
         return 1;
     }
 }
-
 int main()
 {
     int x;
