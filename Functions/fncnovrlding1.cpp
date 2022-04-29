@@ -7,7 +7,6 @@ if(a<0){
     return a;
 }
 }
-
 float absolute(float b)
 {
     if(b<0.0){
