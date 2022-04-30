@@ -7,6 +7,7 @@ void fun()
     cout<<g<<endl;
 }
 int main()
+
 {
     cout<<g<<endl;
     fun();
