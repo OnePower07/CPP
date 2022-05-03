@@ -11,6 +11,6 @@ for(i=0;i<10;i++)
         sum=sum+A[i];
     }
 }
-cout<<sum;
+cout<<sum<<endl;;
 return 0;
 }
