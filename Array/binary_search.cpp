@@ -9,6 +9,7 @@ int main()
     {
         cin >> A[i];
     }
+    
     cout << "Enter Key: " << endl;
     cin >> key;
     while (l <= h) //This while loop for searching the elements
