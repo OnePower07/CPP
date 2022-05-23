@@ -9,6 +9,6 @@ int main()
     {
         fact = fact * i;
     }
-    cout << "Factorial is: " << fact << endl;//factorial
+    cout << "Factorial is: " << fact << endl;
     return 0;
 }
