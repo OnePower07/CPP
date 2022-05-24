@@ -4,7 +4,7 @@ int main(){
     int m,n;
     cout<<"Enter two numbers: "<<endl;
     cin>>m>>n;
-    while(m!=n)//loop
+    while(m!=n)
     {
         if(m>n)
         m=m-n;
