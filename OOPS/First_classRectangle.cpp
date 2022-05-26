@@ -10,10 +10,6 @@ class rectangle
     {
         return length*breadth;
     }
-    // int perimeter()
-    // {
-    //     return 2*(length+breadth);
-    // }
 };
 int main()
 {
