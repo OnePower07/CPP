@@ -5,7 +5,6 @@ class rectangle
     public:
     int length;
     int breadth;
-    
     int area()
     {
         return length*breadth;
