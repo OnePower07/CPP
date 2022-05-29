@@ -4,7 +4,6 @@ int main()
 {
     int base, height;
     int area;
-
     cout << "Enter Height and base of the triangle:" << endl;
 
     cin >> height >> base;
