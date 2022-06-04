@@ -5,6 +5,7 @@ int main(){
     cout<<"Enter number: "<<endl;
     cin>>n;
     m=n;
+    
     while(n>0){
         r=n%10;
         n=n/10;
