@@ -6,16 +6,16 @@ class rectangle
     int length;
     int breadth;
     public:
-    rectangle(int l, int b)
+    rectangle(int l, int b) //parameterized constructor
     {
         setLength(l);
         setBreadth(b);
     }
-    // rectangle(rectangle &r)
-    // {
-    //     length=r.length;
-    //     breadth=r.breadth;
-    // }
+    rectangle(rectangle &r) //deep copy constructor
+    {
+        length=r.length;
+        breadth=r.breadth;
+    }
     void setLength(int l)
     {
         if(l>=0)
@@ -54,7 +54,8 @@ class rectangle
 };
     int main()
     {
-        rectangle r(10,6);
-        cout<<r.area();
+        rectangle r1(10,6);
+        rectangle r2(r1);
+        cout<<"Area of rectangle is "<<r2.area();
         return 0;
     }
