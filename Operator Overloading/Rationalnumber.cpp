@@ -6,7 +6,6 @@ class Rational
 private:
     int p;
     int q;
-
 public:
     Rational()
     {
