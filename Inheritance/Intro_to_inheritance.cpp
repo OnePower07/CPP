@@ -21,7 +21,7 @@ class derived: public base
 int main()
 {
     base b;
-    b.x=25;
+    b.x=22;
     b.show();
 
     derived d;
