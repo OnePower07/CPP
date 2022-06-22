@@ -30,5 +30,5 @@ class derived:public base
 };
 int main()
 {
-    derived d;
+    derived d(10,30);
 }
