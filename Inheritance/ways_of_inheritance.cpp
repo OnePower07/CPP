@@ -29,7 +29,7 @@ class child:protected parent
         c=3;
     }
 };
-class grandchild:protected child
+class grandchild:public child
 {
     private:
 
