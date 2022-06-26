@@ -19,7 +19,7 @@ class advancecar: public basecar
 int main()
 {
     advancecar a;
-    // basecar *p=&a;
+    // basecar *p=&a; this is wrong
     a.start();
     a.playmusic();
 }
