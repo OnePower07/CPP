@@ -24,7 +24,6 @@ Complex operator+(Complex c1,Complex c2)
     t.img=c2.img+c1.img;
     return t;
 }
-
 int main()
 {
     Complex c1(3,7);
