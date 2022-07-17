@@ -1,7 +1,6 @@
 #include<iostream>
 #include<list>
 using namespace std;
-
 main()
 {
     list<int> v={2,4,6,8};
