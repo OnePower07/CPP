@@ -2,6 +2,7 @@
 using namespace std;
 int division(int x, int y)
 {
+    
     if(y==0)
     {
         throw 1;
