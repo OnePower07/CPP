@@ -3,6 +3,7 @@ using namespace std;
 int add(int x,int y)
 {
 int z;
+ //add
 z=x+y;
 return z;
 }
